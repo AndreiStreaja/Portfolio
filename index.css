@@ -611,3 +611,10 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+.code-link-text {
+    margin-left: 5px; /* Spațiu mic la stânga textului */
+    font-weight: bold; /* Textul să fie îngroșat */
+    color: #333; /* Culoarea textului */
+    text-decoration: none; /* Eliminarea sublinierii */
+  }
+
