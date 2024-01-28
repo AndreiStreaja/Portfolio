@@ -1,6 +1,3 @@
-/* --------------------------------------- */
-/* ----- Basic Setup ----- */
-/* --------------------------------------- */
 
 @font-face {
     font-family: 'Hk Grotesk';
@@ -55,7 +52,7 @@
 }
 
 html {
-    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    font-size: 62.5%; 
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -115,9 +112,6 @@ img {
     max-width: 100%;
 }
 
-/* --------------------------------------- */
-/* ----- Headlines and Paragraphs ----- */
-/* --------------------------------------- */
 
 h1,
 h2,
@@ -183,9 +177,6 @@ p {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Buttons and Links ----- */
-/* --------------------------------------- */
 
 a {
     color: var(--white);
@@ -297,8 +288,6 @@ body:not(.user-is-tabbing) a:focus {
     font-family: sans-serif;
 }
 
-/* ----- Back to Top ----- */
-
 .back-to-top {
     position: fixed;
     bottom: 4rem;
@@ -331,9 +320,6 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Navigation ----- */
-/* --------------------------------------- */
 
 .nav {
     display: flex;
@@ -399,9 +385,7 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--pink);
 }
 
-/* --------------------------------------- */
-/* ----- Header ----- */
-/* --------------------------------------- */
+
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
@@ -435,10 +419,6 @@ body:not(.user-is-tabbing) a:focus {
         transform: scale(.8);
     }
 }
-
-/* --------------------------------------- */
-/* ----- Work ----- */
-/* --------------------------------------- */
 
 .work__box {
     display: flex;
@@ -505,9 +485,6 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
 
 .client__logos {
     display: flex;
@@ -531,9 +508,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- About ----- */
-/* --------------------------------------- */
+
 
 .about__content {
     display: flex;
@@ -563,17 +538,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Contact ----- */
-/* --------------------------------------- */
 
 .contact__info {
     max-width: var(--container-medium-width);
 }
 
-/* --------------------------------------- */
-/* ----- Footer ----- */
-/* --------------------------------------- */
 
 .footer {
     text-align: center;
@@ -612,9 +581,9 @@ body:not(.user-is-tabbing) a:focus {
     } 
 }
 .code-link-text {
-    margin-left: 5px; /* Spațiu mic la stânga textului */
-    font-weight: bold; /* Textul să fie îngroșat */
-    color: #333; /* Culoarea textului */
-    text-decoration: none; /* Eliminarea sublinierii */
+    margin-left: 5px; 
+    font-weight: bold; 
+    color: #333; 
+    text-decoration: none; 
   }
 
